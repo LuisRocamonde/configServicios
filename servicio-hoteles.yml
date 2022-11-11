@@ -11,6 +11,9 @@ spring:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
   application:
     name: servicio-hoteles
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
 eureka:
   client:
     service-url:
