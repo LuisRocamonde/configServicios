@@ -9,9 +9,6 @@ spring:
       naming:
         implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-  cloud:
-    config:
-      enabled: false
   application:
     name: servicio-vuelos
 eureka:
